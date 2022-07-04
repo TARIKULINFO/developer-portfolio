@@ -1,52 +1,54 @@
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   margin: 0%;
 }
 
-h1{
+h1 {
   font-size: 50px;
 }
-h2{
+h2 {
   font-size: 35px;
 }
-.uu{
+.uu {
   color: orange;
 }
 
-.flexible-container{
+.flexible-container {
   display: flex;
   margin-bottom: 100px;
 }
-.tt{
+.tt {
   width: 50%;
   padding: 5%;
 }
-.tt img{
+.tt img {
   width: 100%;
 }
-.link-button{
+.link-button {
   text-decoration: none;
-  background-color: tomato;
   padding: 10px 40px;
+  /*background-color: tomato;*/
+  background-image: linear-gradient(orange, tomato);
   color: aliceblue;
   font-weight: 700;
   border-radius: 5px;
 }
-.top-banner{
+
+.top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
-.dream-big{
+.dream-big {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
-.experiance-area{
+.experiance-area {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
 }
-.experiance-item{
+.experiance-item {
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
@@ -54,12 +56,12 @@ h2{
   border-radius: 10px;
   box-shadow: 10px 10px 40px gray;
 }
-#full-stack-web-developer{
+#full-stack-web-developer {
   border-left: 7px solid tomato;
 }
-#baby-web-developer{
-  border-left: 7px solid rgba(201, 139, 243, 0.685) ;
+#baby-web-developer {
+  border-left: 7px solid rgba(201, 139, 243, 0.685);
 }
-footer p{
+footer p {
   text-align: center;
 }
